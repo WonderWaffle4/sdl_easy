@@ -1,14 +1,24 @@
 # depslib dependency file v1.0
-1644433713 source:d:\project\sdltest1\it_horizontalline.cpp
+1644523538 source:d:\project\sdltest1\it_horizontalline.cpp
 	"sdl_easy.h"
 
-1644433838 d:\project\sdltest1\sdl_easy.h
+1644523652 d:\project\sdltest1\sdl_easy.h
 	<iostream>
+	<vector>
 	<SDL2/SDL.h>
 
-1644433850 source:d:\project\sdltest1\main.cpp
+1644523729 source:d:\project\sdltest1\main.cpp
 	"sdl_easy.h"
 
-1644433876 source:d:\project\sdltest1\it_verticalline.cpp
+1644523519 source:d:\project\sdltest1\it_verticalline.cpp
+	"sdl_easy.h"
+
+1644523494 source:d:\project\sdltest1\it_rectangle.cpp
+	"sdl_easy.h"
+
+1644523711 source:d:\project\sdltest1\it_verticaldiagram.cpp
+	"sdl_easy.h"
+
+1644523718 source:d:\project\sdltest1\it_horizontaldiagram.cpp
 	"sdl_easy.h"
 

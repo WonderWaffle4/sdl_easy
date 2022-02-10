@@ -31,7 +31,10 @@
 		<Compiler>
 			<Add option="-Wall" />
 		</Compiler>
+		<Unit filename="it_horizontalDiagram.cpp" />
 		<Unit filename="it_horizontalLine.cpp" />
+		<Unit filename="it_rectangle.cpp" />
+		<Unit filename="it_verticalDiagram.cpp" />
 		<Unit filename="it_verticalLine.cpp" />
 		<Unit filename="main.cpp" />
 		<Unit filename="sdl_easy.h" />

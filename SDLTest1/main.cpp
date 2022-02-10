@@ -5,6 +5,7 @@ using namespace std;
 
 int main( int argc, char* args[] )
 {
+    vector<int> arr = {200, 300, 350, 360, 365, 366, 367};
     SDL_Renderer *renderer;
     SDL_Window *window;
     SDL_Init( SDL_INIT_EVERYTHING);
@@ -12,7 +13,7 @@ int main( int argc, char* args[] )
     SDL_SetRenderDrawColor(renderer, 0, 0, 0, 255);
     SDL_RenderClear(renderer);
     SDL_SetRenderDrawColor(renderer, 255, 255, 255, 255);
-    it_verticalLine(renderer, 0, 1000, 1000);
+    it_horizontalDiagram(renderer, arr);
     SDL_RenderPresent(renderer);
     SDL_Delay(1500);
     SDL_Quit();
